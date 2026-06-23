@@ -1,0 +1,18 @@
+﻿{
+    "version":  "0.2.0",
+    "configurations":  [
+                           {
+                               "projectPath":  "${file}",
+                               "request":  "launch",
+                               "name":  "MonoGame: Debug Active Project",
+                               "type":  "dotnet"
+                           },
+                           {
+                               "name":  "Play Publnwza (Debug)",
+                               "type":  "dotnet",
+                               "request":  "launch",
+                               "projectPath":  "${workspaceFolder}/src/Publnwza/Publnwza.csproj",
+                               "preLaunchTask":  "build-Publnwza"
+                           }
+                       ]
+}
